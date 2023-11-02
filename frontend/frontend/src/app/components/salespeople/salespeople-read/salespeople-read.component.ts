@@ -18,7 +18,7 @@ export class SalespeopleReadComponent implements OnInit {
   ngOnInit(): void {
  
   }
-
+  
   ngAfterViewInit(): void {
     this.salespeopleService.read().subscribe(salesPeople => {
       this.salesPeople = salesPeople
