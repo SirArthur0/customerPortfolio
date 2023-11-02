@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+img {
+    height: 80px;
+    width: 100px;
+}
+
+.title-group {
+    padding-left: 20px;
+}
+
+.material-icons {
+    padding-right: 7px
+}

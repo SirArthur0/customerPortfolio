@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.title {
+    padding-left: 7px;
+}
+
+
+.name, .email {
+    margin-right: 1150px;
+    border-radius: 20%;
+}

@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-title class="title">Add new seller</mat-card-title>
+    <form>
+        <mat-form-field class="name">
+                <input matInput placeholder="Name" [(ngModel)]="salesPeople.name" name="name">
+        </mat-form-field>
+        <mat-form-field class="email">
+            <input matInput placeholder="Email" [(ngModel)]="salesPeople.email" name="email">
+        </mat-form-field>
+    </form>
+</mat-card>
+
+<button mat-raised-button (click)="createSeller()" color="primary">
+    Add
+</button>
+
+<button mat-raised-button (click)="cancel()" color="primary">
+    Cancel
+</button>
